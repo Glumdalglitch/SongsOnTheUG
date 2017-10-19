@@ -1,5 +1,10 @@
 body {
   font-family: 'RailwayRegular';
   font-weight: normal;
-  font-style:normal;
+  font-style: normal;
+  text-align: centre;
 }
+ul {
+  padding: 20px;
+  background: rgba(0,0,0,.5);
+    }
