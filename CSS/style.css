@@ -1,10 +1,50 @@
-body {
-  font-family: 'RailwayRegular';
-  font-weight: normal;
-  font-style: normal;
-  text-align: centre;
-}
-ul {
-  padding: 20px;
-  background: rgba(0,0,0,.5);
+header {
+      text-align: center;
+      background-image: url('http://p1.pichost.me/i/14/1367457.jpg');
+      background-size: cover;
+      }
+#Logo
+{
+  background-color: rgba(58,36,65,0.4);
+  object-fit: cover;
     }
+       .active {
+      color: rgba(255,89,0,1);
+    }
+    a {
+      color: rgba(255,182,56,1);
+      font-family: "RailwayRegular";
+      font-size:30px;
+    }
+    img {
+      margin: 20px 20px 20px 20px;
+      max-width: 400px;
+    }
+	
+		.nav{
+		text-align:left;
+	}
+	.socialmedia{
+		text-align:right;
+	}
+    ul {
+      padding: 20px;
+      background: rgba(0,0,0,.5);
+    }
+	
+    li {
+      display: inline;
+      padding: 0px 20px 0px 20px;
+      
+    }
+
+
+    body{
+      background: rgba(0,0,0,0.5);
+      font-family: "Roboto";
+      }
+    p {
+      font-size: 20px;
+    }
+
+
