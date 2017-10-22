@@ -1,17 +1,45 @@
 header {
       text-align: center;
-      background-image: url('http://p1.pichost.me/i/14/1367457.jpg');
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/aa/Lancaster_Gate_tube.jpg');
       background-size: cover;
       }
-#Logo
+#LogoNav
 {
-  background-color: rgba(58,36,65,0.4);
+  background-color: rgba(58,36,65,0.3);
   object-fit: cover;
     }
-       .active {
+	
+    li {
+      display: inline;
+      padding: 0px 20px 0px 20px;
+      text-transform: uppercase;
+      
+    }
+#episodesnav{
+	position:relative;
+}
+#episodesnav > a {
+cursor:pointer;
+}
+#subnav {
+	position:absolute;
+	top: 100%;
+	left: 0;
+    height: 20px;
+    width: 100px;
+    background-color: white;
+    z-index: 20;
+ }
+ #episodesnav:hover #subnav {
+    display:block;
+ }
+	
+
+	
+ .active {
       color: rgba(255,89,0,1);
     }
-    a {
+ a {
       color: rgba(255,182,56,1);
       font-family: "RailwayRegular";
       font-size:30px;
@@ -21,22 +49,13 @@ header {
       max-width: 400px;
     }
 	
-		.nav{
-		text-align:left;
-	}
-	.socialmedia{
-		text-align:right;
-	}
+	
     ul {
       padding: 20px;
       background: rgba(0,0,0,.5);
     }
 	
-    li {
-      display: inline;
-      padding: 0px 20px 0px 20px;
-      
-    }
+
 
 
     body{
