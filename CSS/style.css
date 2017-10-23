@@ -1,69 +1,62 @@
 header {
       text-align: center;
-      background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/aa/Lancaster_Gate_tube.jpg');
-      background-size: cover;
-      }
-#LogoNav
-{
-  background-color: rgba(58,36,65,0.3);
-  object-fit: cover;
-    }
+      background-image: url("../images/tube.jpg");
+	  background-size:cover;
+	}
 	
-    li {
-      display: inline;
-      padding: 0px 20px 0px 20px;
-      text-transform: uppercase;
-      
-    }
-#episodesnav{
-	position:relative;
-}
-#episodesnav > a {
-cursor:pointer;
-}
-#subnav {
-	position:absolute;
-	top: 100%;
-	left: 0;
-    height: 20px;
-    width: 100px;
-    background-color: white;
-    z-index: 20;
- }
- #episodesnav:hover #subnav {
-    display:block;
- }
-	
+h1{
+	font-family:"RailwayRegular";
+	padding-top: 25px;
+	padding-bottom:55px;
+	font-size:50px;
+	text-transform:uppercase;
+	color:#efe8e8;
+	}
 
-	
- .active {
-      color: rgba(255,89,0,1);
-    }
- a {
-      color: rgba(255,182,56,1);
-      font-family: "RailwayRegular";
-      font-size:30px;
-    }
-    img {
-      margin: 20px 20px 20px 20px;
-      max-width: 400px;
-    }
-	
-	
-    ul {
+
+#nav {
       padding: 20px;
       background: rgba(0,0,0,.5);
     }
 	
-
-
-
-    body{
-      background: rgba(0,0,0,0.5);
+li.nav {
+    display: inline;
+    padding: 0px 20px 0px 20px;	
+	}
+	
+a.navlink {
+	color: rgba(255,211,41,1);
+    font-family: "Roboto";
+    font-size:20px;
+	}
+	
+	
+.active {
+    color: rgba(220,36,31,1);
+	font-family: "Roboto";
+	font-size:25px;
+	font-weight:bold;
+	letter-spacing:2.5px;
+	}
+	
+.image-link {
+	text-decoration:none;
+	border-radius:50%;
+	border: 4px double rgba(255,211,41,1);
+	vertical-align:middle;
+	}
+.imagelink {
+	text-decoration:none;
+	}
+	
+	
+   body{
+      background: rgba(38,36,36,1);
       font-family: "Roboto";
       }
+	  
     p {
       font-size: 20px;
     }
 
-
+  
