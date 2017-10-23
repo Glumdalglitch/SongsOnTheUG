@@ -1,21 +1,30 @@
+@font-face{ 
+	font-family: "Railway";
+	src: url("Railway.otf");
+}
+
+
 header {
       text-align: center;
       background-image: url("../images/tube.jpg");
 	  background-size:cover;
 	}
 	
+#backgroundcolourforheader {
+	background-color:rgba(74,88,119,0.4);
+}
+	
 h1{
-	font-family:"RailwayRegular";
-	padding-top: 25px;
-	padding-bottom:55px;
-	font-size:50px;
+	font-family:"Railway";
+	padding-top: 50px;
+	padding-bottom:60px;
+	font-size:75px;
 	text-transform:uppercase;
 	color:#efe8e8;
 	}
-
-
+	
 #nav {
-      padding: 20px;
+      padding: 10px;
       background: rgba(0,0,0,.5);
     }
 	
@@ -27,19 +36,18 @@ li.nav {
 a.navlink {
 	color: rgba(255,211,41,1);
     font-family: "Roboto";
-    font-size:20px;
+    font-size:25px;
 	}
-	
 	
 .active {
     color: rgba(220,36,31,1);
 	font-family: "Roboto";
-	font-size:25px;
+	font-size:30px;
 	font-weight:bold;
 	letter-spacing:2.5px;
 	}
 	
-.image-link {
+.smimage {
 	text-decoration:none;
 	border-radius:50%;
 	border: 4px double rgba(255,211,41,1);
@@ -58,5 +66,13 @@ a.navlink {
     p {
       font-size: 20px;
     }
+
+#Content {
+	text-align:center;
+	background: rgba(161,165,167,0.3);
+	width:80%;
+	border: 4px double rgba(255,211,41,1);
+	margin: 0 auto;
+}
 
   
