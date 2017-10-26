@@ -7,12 +7,12 @@
 
 /* Main background image */
 header {
-      text-align: center;
-      background-image: url("../images/tube.jpg");
-	  background-size:cover;
-	  padding: 5px 0px 0px 0px;
-	  background-color: rgba(220,36,31,0.3);
-  background-blend-mode: multiply;
+    text-align: center;
+    background-image: url("../images/tube.jpg");
+	background-size:cover;
+	padding: 5px 0px 0px 0px;
+	background-color: rgba(220,36,31,0.3);
+  	background-blend-mode: multiply;
 	}
 	
 /*#backgroundcolourforheader {
