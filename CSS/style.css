@@ -11,13 +11,15 @@ header {
       background-image: url("../images/tube.jpg");
 	  background-size:cover;
 	  padding: 5px 0px 0px 0px;
+	  background-color: rgba(220,36,31,0.3);
+  background-blend-mode: multiply;
 	}
 	
-#backgroundcolourforheader {
+/*#backgroundcolourforheader {
 	background-color: rgba(220,36,31,0.3);
 	background-size:cover;
-	padding: .5px 0px 0px 0px;
-}
+	padding: 0px 0px 0px 0px;
+}*/
 	
 /* Ask how to adapt font size for responsiveness */
 /* "Going Underground" + padding which helps with size of image */	
