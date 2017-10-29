@@ -14,6 +14,9 @@ header {
 	background-color: rgba(220,36,31,0.3);
   	background-blend-mode: multiply;
 	}
+
+
+
 	
 /*#backgroundcolourforheader {
 	background-color: rgba(220,36,31,0.3);
@@ -31,6 +34,7 @@ h1{
 	text-transform:uppercase;
 	color:#efe8e8;
 	}
+
 	
 /* 1/2 opacity black nav */
 #nav {
@@ -158,6 +162,7 @@ a.navlink {
 	  
     p {
       font-size: 20px;
+      padding: 5px 5px 5px 5px;
     }
 
 #Content {
@@ -168,4 +173,23 @@ a.navlink {
 	margin: 0 auto;
 }
 
-  
+/*this is for medium screens*/
+  @media (max-width: 768px){
+       h1 {
+       	display: inherit;
+        font-size: 36px;
+        padding-top: 100px;
+        padding-bottom: 5px;
+            		}
+/*this is for medium screens*/
+  @media (max-width: 415px){
+       h1 {
+        font-size: 36px;
+        padding-top: 100px;
+        padding-bottom: 5px;
+            		}
+   @media (max-width: 768px){
+   		li.nav {
+    	display: inherit;
+		padding: 0px 20px 0px 20px;	
+		}
